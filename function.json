@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "schedule": "0 */5 * * * *",
+      "name": "myTimerIn",
+      "type": "timerTrigger",
+      "direction": "in"
+    },
+    {
+      "schedule": "0 */5 * * * *",
+      "name": "myTimerOut",
+      "type": "timerTrigger",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
